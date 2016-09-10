@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/common/config/hook.js"
+    ],
+    "names": [
+        "route_parse"
+    ],
+    "mappings": "AAAA;;AAEA;;;;;;kBAIe;AACdA,eAAa,CAAC,SAAD,EAAY,WAAZ;AADC,C",
+    "file": "../../../src/common/config/hook.js",
+    "sourcesContent": [
+        "'use strict';\n\n/**\n * hook config\n * https://thinkjs.org/doc/middleware.html#toc-df6\n */\nexport default {\n\troute_parse: [\"prepend\", \"subdomain\"]\n}"
+    ]
+}

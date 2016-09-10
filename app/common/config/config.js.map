@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/common/config/config.js"
+    ],
+    "names": [
+        "port",
+        "subdomain",
+        "m",
+        "w"
+    ],
+    "mappings": "AAAA;AACA;;;;;kBAGe;AACb;AACAA,QAAM,IAFO;AAGbC,aAAW;AACTC,OAAG,cADM,EACU;AACnBC,OAAG,cAFM;AAHE,C",
+    "file": "../../../src/common/config/config.js",
+    "sourcesContent": [
+        "'use strict';\n/**\n * config\n */\nexport default {\n  //key: value\n  port: 8361,\n  subdomain: {\n    m: \"m.twolun.com\", //表示将 m.twolun.com 映射到 m.twolun.com 模块下\n    w: \"w.twolun.com\", //表示将 w.twolun.com 映射到 w.twolun.com 模块下\n  }\n};"
+    ]
+}

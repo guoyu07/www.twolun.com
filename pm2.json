@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "www.twolun.com",
+    "script": "www/production.js",
+    "cwd": "/Volumes/SOFT/GitHub/www.twolun.com",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
